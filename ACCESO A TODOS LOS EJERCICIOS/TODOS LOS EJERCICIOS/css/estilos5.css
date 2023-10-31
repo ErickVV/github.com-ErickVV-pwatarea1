@@ -1,0 +1,27 @@
+/* Estilo para el cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;  /* Cambiamos el color de fondo a un gris claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #007BFF;  /* Cambiamos el color de la fuente del encabezado a un azul */
+    font-size: 2.5em;  /* Cambiamos el tamaño del encabezado */
+    margin-bottom: 20px;
+}
+
+/* Estilo para el párrafo */
+p {
+    width: 70%;  /* Limitamos el ancho para una mejor lectura */
+    text-align: justify;
+    line-height: 1.6;
+}
